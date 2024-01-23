@@ -6,6 +6,7 @@ import NavBar from './components/navbar/NavBar';
 import CategoriaList from './components/categorias/CategoriaList/categoriaList';
 import DeletarCategoria from './components/categorias/DeletarCategoria/deletarCategoria';
 
+
 function App() {
   return (
     <>
