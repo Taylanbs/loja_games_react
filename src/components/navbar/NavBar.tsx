@@ -11,8 +11,9 @@ function Navbar() {
               <div className='text-2xl font-bold uppercase'>🍇Amora's Game</div>
   
               <div className='flex gap-4'>
+              <Link to='/home' className='hover:underline'>Home</Link>
               <Link to='/categoria' className='hover:underline'>Categoria</Link>
-                <Link to='/cadastroCategoria' className='hover:underline'>Cadastrar Categoria</Link>
+              <Link to='/cadastroCategoria' className='hover:underline'>Cadastrar Categoria</Link>
               </div>
             </div>
           </div>
